@@ -1,4 +1,4 @@
-const API_BASE = "/api";
+const API_BASE = "https://dynamic-pricing-system2.onrender.com";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {
